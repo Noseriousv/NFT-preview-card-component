@@ -148,6 +148,13 @@ footer img {
     color:  hsl(178, 100%, 50%);
 }
 
+.attribution, .attribution a {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.12;
+    text-align: center;
+}
+
+
 @media screen and (max-width: 375px){
     #Container {
         max-width: 260px;
