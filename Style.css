@@ -148,4 +148,20 @@ footer img {
     color:  hsl(178, 100%, 50%);
 }
 
+@media screen and (max-width: 375px){
+    #Container {
+        max-width: 260px;
+    }
+    .image img, .Content1, .Content2, footer {
+        max-width: 220px;
+        font-size: 0.7rem;
+    }
+    .image span {
+        width: 220px;
+        height: 220px;
+
+    }
+
+
+}
 
